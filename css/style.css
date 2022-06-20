@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{font-family: 'Work Sans', sans-serif;}
+label, input{
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    padding: 2px;
+}
+input:focus{
+    border: 3px solid #555;
+}
+input{
+    border: 1px solid #555;
+}
+.container{
+    display: flex;
+    align-items: stretch;
+}
+.container-image{
+    flex: 0 0 50%;
+    background-image: url("/assets/img/rohit-tandon-9wg5jCEPBsw-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.container-form{
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+    flex: 0 0 50%;
+}
+
+.form{
+    height: 450px;
+    margin-top: 100px;
+    text-align: center;
+}
+.check{display: flex; margin-top: 5px;}
+button{
+    margin-top: 10px;
+    width: 100px;
+    height: 38px;
+    border: none;
+    background-color: #16A085;
+    color: white;
+}
+
+@media(max-width: 750px){
+    .container{
+        flex-direction: column;
+    }
+}
+@media(min-width: 414px){
+    input{
+        border: 2px solid #555;
+    }
+}
+@media(min-width: 393px){
+    input{
+        border: 2px solid #555;
+    }
+}
