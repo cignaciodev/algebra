@@ -23,7 +23,7 @@ input{
 }
 .container-image{
     flex: 0 0 50%;
-    background: #fff url("/assets/img/rohit-tandon-9wg5jCEPBsw-unsplash.jpg") no-repeat center;
+    background: #fff url("../assets/img/rohit-tandon-9wg5jCEPBsw-unsplash.jpg") no-repeat center;
     background-size: cover;
     min-height: 100vh;
 }
